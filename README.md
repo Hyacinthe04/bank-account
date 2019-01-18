@@ -27,7 +27,8 @@ hyacinthe 0785502657
 # published page
 https://github.com/Hyacinthe04/bank-account
 
-
+# Technologies Used
+jquery Bootstrap javascript html/css
 
 # License
 This project is licensed under the MIT license.
