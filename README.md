@@ -14,14 +14,15 @@ As a user, I want to be see my bank balance before and after every transaction
 # Specifications
 inital amount
 deposit: add to inital amount
-withdraw: substract to inital amount
+withdraw: substract
+
 
 # Known Bugs
 no bugs
 
-
 # Support and contact details
 Contact one of the authors at: hyacinthen04@gmail.com
+hyacinthe 0785502657
 
 # published page
 https://github.com/Hyacinthe04/bank-account
