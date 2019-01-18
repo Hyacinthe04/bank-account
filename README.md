@@ -30,8 +30,8 @@ https://github.com/Hyacinthe04/bank-account
 # Technologies Used
 jquery Bootstrap javascript html/css
 
-
-
-Copyright (c) 2019 {Hyacinthe Ndayiragije}
+# license
+this project was developed under MIT
+ Copyright (c) 2019 {Hyacinthe Ndayiragije}
 
 
