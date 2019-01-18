@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/account.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/account.js"></script>
+    <title>Your Bank</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header ">
+        
+          <div class="appName">
+              <hr size="30">
+            <h2>HYB ONLINE BANK</h2>
+            <h3>Take Your Bank With You</h3>
+          </div>
+            <img class="logo" src="./images/concept-mobile-payments-personal-data-260nw-1065837785 (1).jpg">
+          </div>
+      <form id="createAccount">
+        <div class="row">          
+          <div class="jumbotron openAccount">
+            <h2>Open an account</h2>
+               <label for="">First Name:</label><br>
+                <input class="firstname-input" type="text"><br><br>
+                <label for="">Last Name:</label><br>
+                <input class="lastname-input" type="text"><br><br>
+               <label for="">Initial amount in RWF</label><br>
+                <input class="deposit-initial" type="number" min="0" step="0.1"><br><br>
+                <button type="submit" color="black">Create New Account</button>
+            </div>
+              </div><hr>
+             
+            </div>
+          
+          
+            <div class="jumbotron deposityouramount">
+              <h3>deposit your amount</h3>
+              <label for="">First Name:</label><br>
+              <input class="acct-deposit-input" type="text"><br>
+              <label class="">Deposit RWF</label><br>
+              <input class="deposit-input" type="number" min="0" step="0.01"><br><br>
+              <button class="deposit-input" type="button" name="button">Deposit</button>
+            </div>
+            <div class="jumbotron withdrawalYouramount">
+              <h3>Withdrawal Your Amount</h3>
+              <label for="">First Name:</label><br>
+              <input class="acct-withdraw-input" type="text"><br>
+              <label class="">Withdraw RWF</label><br>
+              <input class="withdraw-input" type="number" min="0" step="0.01"><br><br>
+              <button class="withdraw-input" type="button" name="button">Withdraw</button><br>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="well" id="receipt"></div>
+       </body>
+</html>

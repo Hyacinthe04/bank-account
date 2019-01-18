@@ -1,0 +1,105 @@
+#receipt p {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  
+  
+  img.logo {
+    float: right;
+    width: 400px;
+    height:300px;
+    margin-right:60px;    
+    
+    
+  }
+  .appName{
+    color :wheat;
+    float:left;
+    margin-left: 100px;
+    margin-top: 85px;
+    font-family:fantasy;
+    font-style: oblique;
+    font-stretch: narrower;
+    
+  }
+  .appName h2, h3{
+    font-size:45px;
+  }
+  h3.logo {
+    text-align: right;
+    /* clear: both; */
+  }
+  .page-header {
+    color:white;
+    Display:Block;
+    background-color:rgb(17, 15, 42) ;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right:auto;
+    height:300px;
+    
+   
+  }
+  
+  body {
+    background-image: url(../img/cat2.jpg);
+    color: hsl(210, 63%, 7%);
+  }
+  
+  .jumbotron, .well {
+   
+    height:350px;
+  }
+  /* .row { */
+    /* margin-right: -10px; */
+    /* margin-left: -10px; */
+  /* } */
+  
+  .openAccount{
+    margin-right:auto;
+    margin-left: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+    background-color: #b6c5d3;
+    height:320px;
+    width:550px;
+    border:4px #0b0b14;
+    justify-content: center;
+
+  }
+  /* .deposit-initial{
+    background-color: rgb(110, 110, 167);
+    color:#0f0f22
+  } */
+  .deposityouramount{
+    margin-right: 3px;
+    margin-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+    background-color: #b6c5d3;
+    height:320px;
+    width:550px;
+    border:4px #0b0b14;
+    float:left;
+  }
+  .withdrawalYouramount{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 3px;
+    padding-left:10pX;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+    background-color: #b6c5d3;
+    height:320px;
+    width:550px;
+    border:4px #0b0b14;
+    float:right;
+  }
+ 
