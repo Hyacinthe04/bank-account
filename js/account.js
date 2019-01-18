@@ -17,7 +17,7 @@ Name.prototype.withdrawMoney = function(amount){
   this.deposit -= amount;
   return this.deposit;
 
-
+}
 function checkAccount(name) {
   var accountTemp = -1;
   accountIndex.forEach(function(element, index){
