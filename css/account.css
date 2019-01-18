@@ -5,7 +5,12 @@
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
   }
-  
+  img.logo {
+    float: right;
+    width: 400px;
+    height:300px;
+    margin-right:60px;    
+    
   
   img.logo {
     float: right;
