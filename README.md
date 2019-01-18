@@ -2,7 +2,8 @@
 bank acount is project will help user to do transaction of amount of money they have on bank like create acount, deposit money and withdraw money 
  {january 2019} By {Hyacinthe Ndayiragije}
 
-
+# Description
+we will be creating a bank account application that will enable the users to create a bank account, deposit and withdraw money from the account.  
 
 As a user, I want to create a bank account.
 As a user, I want to have an initial bank account balance.
