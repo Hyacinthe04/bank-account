@@ -3,17 +3,17 @@ var accountArray = [];
 var accountIndex = [];
 
 
-function Name(first, last, deposit){
+function Bank(first, last, deposit){
   this.firstName = first;
   this.lastName = last;
   this.deposit = deposit;
 }
 
-Name.prototype.depositMoney = function(amount){
+Bank.prototype.depositMoney = function(amount){
   this.deposit += amount;
   return this.deposit;
 }
-Name.prototype.withdrawMoney = function(amount){
+Bank.prototype.withdrawMoney = function(amount){
   this.deposit -= amount;
   return this.deposit;
 
@@ -51,7 +51,7 @@ $(document).ready(function() {
     var lastName = $("input.lastname-input").val();
     var deposit = parseFloat($("input.deposit-initial").val());
 
-    account = new Name(firstName, lastName, deposit);
+    account = new Bank(firstName, lastName, deposit);
     accountArray.push(account);
     accountIndex.push(firstName);
     console.log(account);
